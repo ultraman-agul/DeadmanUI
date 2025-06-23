@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module">
+      import "../../dist/assets/entry.css";
+      import DeadmanUI from "../../dist/deadman-ui.esm.js";
+      import { createApp } from "../../node_modules/vue/dist/vue.esm-browser.js";
+      createApp({
+        template: `
+      		<div>
+      			<DButton round color="blue" plain icon="add">朴素按钮</DButton>
+            <DButton round color="green" plain icon="check">绿色按钮</DButton>
+            <DButton round color="gray" plain icon="message">灰色按钮</DButton>
+            <DButton round color="yellow" plain icon="edit">黄色按钮</DButton>
+            <DButton round color="red" plain icon="delete"></DButton>
+      		</div>
+      		`,
+      })
+        .use(DeadmanUI)
+        .mount("#app");
+    </script>
+  </body>
+</html>
