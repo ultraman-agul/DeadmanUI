@@ -1,7 +1,7 @@
 import { createApp } from "vue/dist/vue.esm-browser.js";
-import DButton from "./button/index";
-import SFCButton from "./SFCButton.vue";
-import JSXButton from "./JSXButton";
+// import DButton from "./button/Button";
+// import SFCButton from "./SFCButton.vue";
+// import JSXButton from "./JSXButton";
 import DeadmanUI from "./entry";
 createApp({
   template: `

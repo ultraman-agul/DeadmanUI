@@ -1,11 +1,11 @@
 <template>
-  <button>
-    <!-- <slot /> -->
-	 deadman btn
-  </button>
+	<button>
+		<!-- <slot /> -->
+		deadman btn
+	</button>
 </template>
 <script lang="ts">
 export default {
-  name: "SFCButton",
-};
+	name: 'SFCButton'
+}
 </script>
