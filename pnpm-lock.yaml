@@ -8,18 +8,22 @@ importers:
 
   .:
     dependencies:
-      vite:
-        specifier: 3.0.7
-        version: 3.0.7(terser@5.4.0)
-
-  packages/deadman-ui:
-    dependencies:
       '@commitlint/cli':
         specifier: 17.0.2
         version: 17.0.2
       '@commitlint/config-conventional':
         specifier: 17.0.2
         version: 17.0.2
+      vite:
+        specifier: 3.0.7
+        version: 3.0.7(terser@5.4.0)
+    devDependencies:
+      husky:
+        specifier: ^9.1.7
+        version: 9.1.7
+
+  packages/deadman-ui:
+    dependencies:
       '@types/fs-extra':
         specifier: ^11.0.4
         version: 11.0.4
@@ -66,9 +70,6 @@ importers:
       happy-dom:
         specifier: 6.0.4
         version: 6.0.4
-      husky:
-        specifier: ^9.1.7
-        version: 9.1.7
       jsdom:
         specifier: ^26.1.0
         version: 26.1.0
@@ -96,6 +97,8 @@ importers:
       vitest:
         specifier: 0.21.1
         version: 0.21.1(happy-dom@6.0.4)(jsdom@26.1.0)(terser@5.4.0)
+
+  packages/deadman-ui/dist/Button: {}
 
   packages/docs:
     dependencies:
