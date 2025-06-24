@@ -1,10 +1,10 @@
-import { createApp } from "vue/dist/vue.esm-browser.js";
+import { createApp } from 'vue/dist/vue.esm-browser.js'
 // import DButton from "./button/Button";
 // import SFCButton from "./SFCButton.vue";
 // import JSXButton from "./JSXButton";
-import DeadmanUI from "./entry";
+import DeadmanUI from './entry'
 createApp({
-  template: `
+	template: `
     <div style="margin-bottom:20px;">
      	<DButton color="blue">蓝色按钮</DButton>
 		<DButton color="green">绿色按钮</DButton>
@@ -42,7 +42,7 @@ createApp({
        <DButton round color="yellow" plain icon="edit">黄色按钮</DButton>
        <DButton round color="red" plain icon="delete"></DButton>
    </div>
-	`,
+	`
 })
-  .use(DeadmanUI)
-  .mount("#app");
+	.use(DeadmanUI)
+	.mount('#app')
