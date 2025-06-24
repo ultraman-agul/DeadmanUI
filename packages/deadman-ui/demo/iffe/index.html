@@ -2,12 +2,13 @@
 <div id="app"></div>
 <link rel="stylesheet" href="../../dist/assets/entry.css" />
 <script src="../../node_modules/vue/dist/vue.global.js"></script>
-<script src="../../dist/deadman-ui.iife.js"></script>
+<!-- <script src="../../dist/deadman-ui.iife.js"></script> -->
+<script src="../../dist/Button/index.iife.js"></script>
 <script>
 	console.log('111')
 	const { createApp } = Vue
 	console.log('vue', Vue)
-	console.log('DeadmanUI', DeadmanUI)
+	// console.log('DeadmanUI', DeadmanUI)
 	createApp({
 		template: `
     <div style="margin-bottom:20px;">
@@ -46,6 +47,6 @@
     </div>
   `
 	})
-		.use(DeadmanUI.default)
+		.use(Button.default)
 		.mount('#app')
 </script>

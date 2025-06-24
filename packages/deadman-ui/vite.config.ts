@@ -34,7 +34,8 @@ export default defineConfig({
 			// 导出模块格式
 			// @ts-expect-error 忽略类型错误
 			formats: ['esm', 'umd', 'iife']
-		}
+		},
+		outDir: './dist'
 	},
 	test: {
 		// enable jest-like global test APIs
