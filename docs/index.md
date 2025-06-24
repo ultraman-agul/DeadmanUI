@@ -1,5 +1,7 @@
 # DeadmanUI
 
+![https://github.com/ultraman-agul/DeadmanUI/actions/workflows/main.yml](https://github.com/ultraman-agul/DeadmanUI/actions/workflows/main.yml/badge.svg?branch=main)
+
 ## Button 按钮
 
 常用操作按钮
@@ -12,40 +14,39 @@
 
 ```vue
 <template>
- <div style="margin-bottom:20px;">
-  <DButton color="blue">主要按钮</DButton>
-  <DButton color="green">绿色按钮</DButton>
-  <DButton color="gray">灰色按钮</DButton>
-  <DButton color="yellow">黄色按钮</DButton>
-  <DButton color="red">红色按钮</DButton>
- </div>
- <div style="margin-bottom:20px;"
- >
-  <DButton color="blue" plain>朴素按钮</DButton>
-  <DButton color="green" plain>绿色按钮</DButton>
-  <DButton color="gray" plain>灰色按钮</DButton>
-  <DButton color="yellow" plain>黄色按钮</DButton>
-  <DButton color="red" plain>红色按钮</DButton>
- </div>
- <div style="margin-bottom:20px;">
-  <DButton size="small" plain>小按钮</DButton>
-  <DButton size="medium" plain>中按钮</DButton>
-  <DButton size="large" plain>大按钮</DButton>
- </div>
- <div style="margin-bottom:20px;">
-  <DButton color="blue" round plain icon="search">搜索按钮</DButton>
-  <DButton color="green" round plain icon="edit">编辑按钮</DButton>
-  <DButton color="gray" round plain icon="check">成功按钮</DButton>
-  <DButton color="yellow" round plain icon="message">提示按钮</DButton>
-  <DButton color="red" round plain icon="delete">删除按钮</DButton>
- </div>
- <div style="margin-bottom:20px;">
-  <DButton color="blue" round plain icon="search"></DButton>
-  <DButton color="green" round plain icon="edit"></DButton>
-  <DButton color="gray" round plain icon="check"></DButton>
-  <DButton color="yellow" round plain icon="message"></DButton>
-  <DButton color="red" round plain icon="delete"></DButton>
- </div>
+	<div style="margin-bottom:20px;">
+		<DButton color="blue">主要按钮</DButton>
+		<DButton color="green">绿色按钮</DButton>
+		<DButton color="gray">灰色按钮</DButton>
+		<DButton color="yellow">黄色按钮</DButton>
+		<DButton color="red">红色按钮</DButton>
+	</div>
+	<div style="margin-bottom:20px;">
+		<DButton color="blue" plain>朴素按钮</DButton>
+		<DButton color="green" plain>绿色按钮</DButton>
+		<DButton color="gray" plain>灰色按钮</DButton>
+		<DButton color="yellow" plain>黄色按钮</DButton>
+		<DButton color="red" plain>红色按钮</DButton>
+	</div>
+	<div style="margin-bottom:20px;">
+		<DButton size="small" plain>小按钮</DButton>
+		<DButton size="medium" plain>中按钮</DButton>
+		<DButton size="large" plain>大按钮</DButton>
+	</div>
+	<div style="margin-bottom:20px;">
+		<DButton color="blue" round plain icon="search">搜索按钮</DButton>
+		<DButton color="green" round plain icon="edit">编辑按钮</DButton>
+		<DButton color="gray" round plain icon="check">成功按钮</DButton>
+		<DButton color="yellow" round plain icon="message">提示按钮</DButton>
+		<DButton color="red" round plain icon="delete">删除按钮</DButton>
+	</div>
+	<div style="margin-bottom:20px;">
+		<DButton color="blue" round plain icon="search"></DButton>
+		<DButton color="green" round plain icon="edit"></DButton>
+		<DButton color="gray" round plain icon="check"></DButton>
+		<DButton color="yellow" round plain icon="message"></DButton>
+		<DButton color="red" round plain icon="delete"></DButton>
+	</div>
 </template>
 ```
 
@@ -59,12 +60,12 @@
 
 ```vue
 <template>
- <div class="flex flex-row">
-  <DButton icon="edit" plain></DButton>
-  <DButton icon="delete" plain></DButton>
-  <DButton icon="share" plain></DButton>
-  <DButton round plain icon="search">搜索</DButton>
- </div>
+	<div class="flex flex-row">
+		<DButton icon="edit" plain></DButton>
+		<DButton icon="delete" plain></DButton>
+		<DButton icon="share" plain></DButton>
+		<DButton round plain icon="search">搜索</DButton>
+	</div>
 </template>
 ```
 
